@@ -24,10 +24,10 @@ end
 
 hero = Hero.new 'sasha'
 
-puts hero.name
-puts hero.power_up 
-puts hero.power_down 
-puts hero.info_hero
+# puts hero.name
+# puts hero.power_up 
+# puts hero.power_down 
+# puts hero.info_hero
 
 
 
