@@ -13,4 +13,14 @@ describe Hero do
     expect(hero.power_up).to eq 110
   end
 
+  it "can power down" do
+    hero = Hero.new 'vasia'
+    expect(hero.power_down).to eq 90  
+  end
+
+  it "dispaly hero info" do
+    hero = Hero.new 'vasia'
+    expect(hero.info_hero).to eq 'Vasia has a health of 100'  
+  end
+
 end
