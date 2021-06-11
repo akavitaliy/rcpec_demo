@@ -12,9 +12,8 @@ class Car
     @fuel += amount
   end
 
-  def range
-    0
-    #MILES_PER_GALLON * @fuel
+  def range    
+    MILES_PER_GALLON * @fuel
   end
 
   car = Car.new
